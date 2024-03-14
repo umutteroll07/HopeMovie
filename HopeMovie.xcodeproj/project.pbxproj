@@ -7,15 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA1D759B9AA85E5ED483C0A9 /* Pods_HopeMovie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DA80E25B68E708FBDC9F82B /* Pods_HopeMovie.framework */; };
+		F532BC342B7A28CA006F0C43 /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F532BC332B7A28CA006F0C43 /* MovieCollectionViewCell.swift */; };
+		F532BC362B7A41DA006F0C43 /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F532BC352B7A41DA006F0C43 /* MovieViewModel.swift */; };
+		F532BC392B7A4616006F0C43 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = F532BC382B7A4616006F0C43 /* RxCocoa */; };
+		F532BC3B2B7A4616006F0C43 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F532BC3A2B7A4616006F0C43 /* RxSwift */; };
+		F53733902B8360CD00E2AE95 /* ActorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F537338F2B8360CD00E2AE95 /* ActorModel.swift */; };
+		F53733922B83646400E2AE95 /* ActorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53733912B83646400E2AE95 /* ActorViewModel.swift */; };
+		F53733962B8373B600E2AE95 /* ActorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53733952B8373B600E2AE95 /* ActorCollectionViewCell.swift */; };
+		F53733982B83886000E2AE95 /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53733972B83886000E2AE95 /* FavouritesViewController.swift */; };
+		F537339A2B8389C200E2AE95 /* FavouriteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53733992B8389C200E2AE95 /* FavouriteTableViewCell.swift */; };
+		F5D334FB2B77847600C3C2D1 /* SingInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D334FA2B77847600C3C2D1 /* SingInViewController.swift */; };
+		F5D334FD2B778E9A00C3C2D1 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D334FC2B778E9A00C3C2D1 /* SignUpViewController.swift */; };
+		F5D334FF2B77B5BB00C3C2D1 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D334FE2B77B5BB00C3C2D1 /* MovieModel.swift */; };
+		F5D335052B77B85300C3C2D1 /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D335042B77B85300C3C2D1 /* WebServices.swift */; };
+		F5E2D6E12B7E8D730076EC34 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E2D6E02B7E8D730076EC34 /* DetailsViewController.swift */; };
 		F5EEE9042B777D3F006ED8DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EEE9032B777D3F006ED8DD /* AppDelegate.swift */; };
 		F5EEE9062B777D3F006ED8DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EEE9052B777D3F006ED8DD /* SceneDelegate.swift */; };
 		F5EEE9082B777D3F006ED8DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EEE9072B777D3F006ED8DD /* ViewController.swift */; };
 		F5EEE90B2B777D3F006ED8DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5EEE9092B777D3F006ED8DD /* Main.storyboard */; };
 		F5EEE90D2B777D41006ED8DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5EEE90C2B777D41006ED8DD /* Assets.xcassets */; };
 		F5EEE9102B777D41006ED8DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5EEE90E2B777D41006ED8DD /* LaunchScreen.storyboard */; };
+		F5EEE9182B777EA4006ED8DD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5EEE9172B777EA4006ED8DD /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5DA80E25B68E708FBDC9F82B /* Pods_HopeMovie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HopeMovie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F5FD80BB899B7FC402CDA8F /* Pods-HopeMovie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HopeMovie.debug.xcconfig"; path = "Target Support Files/Pods-HopeMovie/Pods-HopeMovie.debug.xcconfig"; sourceTree = "<group>"; };
+		B01EAB657CB618568EBE9FC8 /* Pods-HopeMovie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HopeMovie.release.xcconfig"; path = "Target Support Files/Pods-HopeMovie/Pods-HopeMovie.release.xcconfig"; sourceTree = "<group>"; };
+		F532BC332B7A28CA006F0C43 /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
+		F532BC352B7A41DA006F0C43 /* MovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
+		F537338F2B8360CD00E2AE95 /* ActorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorModel.swift; sourceTree = "<group>"; };
+		F53733912B83646400E2AE95 /* ActorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorViewModel.swift; sourceTree = "<group>"; };
+		F53733952B8373B600E2AE95 /* ActorCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorCollectionViewCell.swift; sourceTree = "<group>"; };
+		F53733972B83886000E2AE95 /* FavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
+		F53733992B8389C200E2AE95 /* FavouriteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteTableViewCell.swift; sourceTree = "<group>"; };
+		F5D334FA2B77847600C3C2D1 /* SingInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingInViewController.swift; sourceTree = "<group>"; };
+		F5D334FC2B778E9A00C3C2D1 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		F5D334FE2B77B5BB00C3C2D1 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		F5D335042B77B85300C3C2D1 /* WebServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
+		F5E2D6E02B7E8D730076EC34 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		F5EEE9002B777D3F006ED8DD /* HopeMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HopeMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5EEE9032B777D3F006ED8DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5EEE9052B777D3F006ED8DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +55,7 @@
 		F5EEE90C2B777D41006ED8DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5EEE90F2B777D41006ED8DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5EEE9112B777D41006ED8DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5EEE9172B777EA4006ED8DD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +63,96 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F532BC3B2B7A4616006F0C43 /* RxSwift in Frameworks */,
+				F532BC392B7A4616006F0C43 /* RxCocoa in Frameworks */,
+				BA1D759B9AA85E5ED483C0A9 /* Pods_HopeMovie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8CA6BCD8CA36B2BDF7AD3914 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DA80E25B68E708FBDC9F82B /* Pods_HopeMovie.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B446B29BAE75B17C07E3474A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F5FD80BB899B7FC402CDA8F /* Pods-HopeMovie.debug.xcconfig */,
+				B01EAB657CB618568EBE9FC8 /* Pods-HopeMovie.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F532BC2F2B7A272F006F0C43 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F5D334FC2B778E9A00C3C2D1 /* SignUpViewController.swift */,
+				F5D334FA2B77847600C3C2D1 /* SingInViewController.swift */,
+				F5EEE9072B777D3F006ED8DD /* ViewController.swift */,
+				F5E2D6E02B7E8D730076EC34 /* DetailsViewController.swift */,
+				F53733972B83886000E2AE95 /* FavouritesViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F532BC302B7A2747006F0C43 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F532BC332B7A28CA006F0C43 /* MovieCollectionViewCell.swift */,
+				F53733952B8373B600E2AE95 /* ActorCollectionViewCell.swift */,
+				F53733992B8389C200E2AE95 /* FavouriteTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F5D335002B77B7D200C3C2D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F5D334FE2B77B5BB00C3C2D1 /* MovieModel.swift */,
+				F537338F2B8360CD00E2AE95 /* ActorModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F5D335012B77B7E400C3C2D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F532BC302B7A2747006F0C43 /* Cell */,
+				F532BC2F2B7A272F006F0C43 /* ViewController */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F5D335022B77B7EE00C3C2D1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F532BC352B7A41DA006F0C43 /* MovieViewModel.swift */,
+				F53733912B83646400E2AE95 /* ActorViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F5D335032B77B7F800C3C2D1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F5D335042B77B85300C3C2D1 /* WebServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		F5EEE8F72B777D3F006ED8DD = {
 			isa = PBXGroup;
 			children = (
 				F5EEE9022B777D3F006ED8DD /* HopeMovie */,
 				F5EEE9012B777D3F006ED8DD /* Products */,
+				B446B29BAE75B17C07E3474A /* Pods */,
+				8CA6BCD8CA36B2BDF7AD3914 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,13 +167,17 @@
 		F5EEE9022B777D3F006ED8DD /* HopeMovie */ = {
 			isa = PBXGroup;
 			children = (
+				F5D335032B77B7F800C3C2D1 /* Services */,
+				F5D335022B77B7EE00C3C2D1 /* ViewModel */,
+				F5D335012B77B7E400C3C2D1 /* View */,
+				F5D335002B77B7D200C3C2D1 /* Model */,
 				F5EEE9032B777D3F006ED8DD /* AppDelegate.swift */,
 				F5EEE9052B777D3F006ED8DD /* SceneDelegate.swift */,
-				F5EEE9072B777D3F006ED8DD /* ViewController.swift */,
 				F5EEE9092B777D3F006ED8DD /* Main.storyboard */,
 				F5EEE90C2B777D41006ED8DD /* Assets.xcassets */,
 				F5EEE90E2B777D41006ED8DD /* LaunchScreen.storyboard */,
 				F5EEE9112B777D41006ED8DD /* Info.plist */,
+				F5EEE9172B777EA4006ED8DD /* GoogleService-Info.plist */,
 			);
 			path = HopeMovie;
 			sourceTree = "<group>";
@@ -74,15 +189,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F5EEE9142B777D41006ED8DD /* Build configuration list for PBXNativeTarget "HopeMovie" */;
 			buildPhases = (
+				1F6C4E0384F7546EE9121955 /* [CP] Check Pods Manifest.lock */,
 				F5EEE8FC2B777D3F006ED8DD /* Sources */,
 				F5EEE8FD2B777D3F006ED8DD /* Frameworks */,
 				F5EEE8FE2B777D3F006ED8DD /* Resources */,
+				71C426B18EC869D7F85BD5A1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = HopeMovie;
+			packageProductDependencies = (
+				F532BC382B7A4616006F0C43 /* RxCocoa */,
+				F532BC3A2B7A4616006F0C43 /* RxSwift */,
+			);
 			productName = HopeMovie;
 			productReference = F5EEE9002B777D3F006ED8DD /* HopeMovie.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +232,9 @@
 				Base,
 			);
 			mainGroup = F5EEE8F72B777D3F006ED8DD;
+			packageReferences = (
+				F532BC372B7A4616006F0C43 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = F5EEE9012B777D3F006ED8DD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5EEE9102B777D41006ED8DD /* LaunchScreen.storyboard in Resources */,
+				F5EEE9182B777EA4006ED8DD /* GoogleService-Info.plist in Resources */,
 				F5EEE90D2B777D41006ED8DD /* Assets.xcassets in Resources */,
 				F5EEE90B2B777D3F006ED8DD /* Main.storyboard in Resources */,
 			);
@@ -133,14 +258,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F6C4E0384F7546EE9121955 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HopeMovie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71C426B18EC869D7F85BD5A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HopeMovie/Pods-HopeMovie-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HopeMovie/Pods-HopeMovie-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HopeMovie/Pods-HopeMovie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F5EEE8FC2B777D3F006ED8DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F53733922B83646400E2AE95 /* ActorViewModel.swift in Sources */,
+				F5D334FF2B77B5BB00C3C2D1 /* MovieModel.swift in Sources */,
+				F5D334FB2B77847600C3C2D1 /* SingInViewController.swift in Sources */,
+				F5D335052B77B85300C3C2D1 /* WebServices.swift in Sources */,
 				F5EEE9082B777D3F006ED8DD /* ViewController.swift in Sources */,
 				F5EEE9042B777D3F006ED8DD /* AppDelegate.swift in Sources */,
+				F532BC362B7A41DA006F0C43 /* MovieViewModel.swift in Sources */,
 				F5EEE9062B777D3F006ED8DD /* SceneDelegate.swift in Sources */,
+				F53733902B8360CD00E2AE95 /* ActorModel.swift in Sources */,
+				F53733962B8373B600E2AE95 /* ActorCollectionViewCell.swift in Sources */,
+				F5D334FD2B778E9A00C3C2D1 /* SignUpViewController.swift in Sources */,
+				F532BC342B7A28CA006F0C43 /* MovieCollectionViewCell.swift in Sources */,
+				F53733982B83886000E2AE95 /* FavouritesViewController.swift in Sources */,
+				F537339A2B8389C200E2AE95 /* FavouriteTableViewCell.swift in Sources */,
+				F5E2D6E12B7E8D730076EC34 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +461,7 @@
 		};
 		F5EEE9152B777D41006ED8DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F5FD80BB899B7FC402CDA8F /* Pods-HopeMovie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +490,7 @@
 		};
 		F5EEE9162B777D41006ED8DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B01EAB657CB618568EBE9FC8 /* Pods-HopeMovie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -358,6 +539,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F532BC372B7A4616006F0C43 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift?tab=readme-ov-file";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F532BC382B7A4616006F0C43 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F532BC372B7A4616006F0C43 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		F532BC3A2B7A4616006F0C43 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F532BC372B7A4616006F0C43 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F5EEE8F82B777D3F006ED8DD /* Project object */;
 }
